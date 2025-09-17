@@ -1,0 +1,19 @@
+{
+  "name": "klikindomaret-stock-checker",
+  "version": "1.0.0",
+  "description": "Aplikasi untuk cek stok produk KlikIndomaret dengan UI web (Express.js).",
+  "main": "web.js",
+  "scripts": {
+    "dev": "node web.js",
+    "start": "node web.js"
+  },
+  "author": "Poina In",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "xlsx": "^0.18.5",
+    "serverless-http": "^3.2.0"
+  }
+}
